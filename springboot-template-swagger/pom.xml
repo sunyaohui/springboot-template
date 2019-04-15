@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.thyme.sun</groupId>
+    <artifactId>springboot-template-parent</artifactId>
+    <version>0.0.1</version>
+  </parent>
+  <groupId>com.thyme.sun</groupId>
+  <artifactId>springboot-template-swagger</artifactId>
+  <version>0.0.1</version>
+  <name>springboot-template-swagger</name>
+  <url>http://maven.apache.org</url>
+  
+  <properties>
+  	<springfox-swagger2.version>2.6.1</springfox-swagger2.version>
+  	<springfox-swagger-ui.version>2.6.1</springfox-swagger-ui.version>
+  	<snakyaml.version>1.17</snakyaml.version>
+  </properties>
+  
+  <dependencies>
+  		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>${springfox-swagger2.version}</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>${springfox-swagger-ui.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.yaml</groupId>
+			<artifactId>snakeyaml</artifactId>
+			<version>${snakyaml.version}</version>
+		</dependency>
+	
+  </dependencies>
+
+</project>
